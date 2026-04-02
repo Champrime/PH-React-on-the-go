@@ -1,4 +1,4 @@
-import { Suspense, use } from "react";
+import { Suspense } from "react";
 
 export default function Country({country}){
     const {name, capital, flags, population} = country;
