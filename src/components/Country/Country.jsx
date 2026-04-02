@@ -4,7 +4,6 @@ export default function Country({country}){
     const {name, capital, flags, population} = country;
     const {common, official} = name;
     const {png, svg, alt} = flags.flags;
-    console.log(alt)
 
     return(
         <>
