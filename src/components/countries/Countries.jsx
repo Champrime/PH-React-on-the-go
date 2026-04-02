@@ -15,7 +15,7 @@ const Countries = () => {
     return (
         <div>
             <h1>In {countries.length} countries</h1>
-            {Countries.map(c => <Country country={c}></Country>
+            {countries.map(c => <Country country={c}></Country>
             )}
         </div>
     );
